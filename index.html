@@ -1,14 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <title>GIF</title>
 
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="GIF">
-  <meta property="og:description" content="GIF embed">
-
-  <meta property="og:image" content="https://semij1.github.io/Theres-Levels-to-this/preview.gif">
+    <!-- Discord embed -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="GIF">
+    <meta property="og:description" content="GIF preview">
+    <meta property="og:image" content="https://semij1.github.io/Theres-Levels-to-this/preview.gif">
+    <meta property="og:image:type" content="image/gif">
 </head>
-<body>
+
+<body style="
+    margin:0;
+    background:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+">
+
+    <!-- GIF shown on page when clicked -->
+    <img
+        src="preview.gif"
+        alt="GIF"
+        style="max-width:100%; max-height:100%;"
+    >
+
 </body>
 </html>
